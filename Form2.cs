@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace desarrollo_actual
 {
-    public partial class funsion_4 : Form
+    public partial class Form2 : Form
     {
-        public funsion_4()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
