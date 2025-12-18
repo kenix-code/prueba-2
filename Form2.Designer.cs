@@ -46,8 +46,10 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(640, 364);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(937, 482);
             Controls.Add(button5);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form2";
             Text = "Form2";

@@ -38,7 +38,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(97, 212);
+            button1.Location = new Point(254, 274);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
@@ -47,7 +47,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(228, 212);
+            button2.Location = new Point(385, 274);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 2;
@@ -56,7 +56,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(350, 212);
+            button3.Location = new Point(507, 274);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(479, 212);
+            button4.Location = new Point(636, 274);
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 4;
@@ -86,12 +86,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(641, 362);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1000, 500);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             Text = "Form1";
